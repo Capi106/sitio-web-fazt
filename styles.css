@@ -96,6 +96,18 @@ body {
   background-color: #485460;
 }
 
+.container .sidebar div{
+  margin-top: 10px;
+}
+
+.container .sidebar div:first-child{
+  margin-top: 0;
+}
+
+.container .sidebar img {
+  width: 100%;
+}
+
 .container > .related-post {
   display: flex;
   justify-content: center;
