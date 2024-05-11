@@ -96,6 +96,19 @@ body {
   background-color: #485460;
 }
 
-.container .related-post {
+.container > .related-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   grid-column: span 1;
+  height: 180px;
+  color: #fff;
+  background-color: #2d3436;
+  cursor: pointer;
+  transition: color .3s ease, background-color .3s ease;
+}
+
+.container > .related-post:hover {
+  color: #000;
+  background-color: #fff;
 }
