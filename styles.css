@@ -124,3 +124,23 @@ body {
   color: #000;
   background-color: #fff;
 }
+
+
+/* media-queries */
+@media screen and (max-width: 768px) {
+  .header {
+    text-align: center;
+  }
+
+  .container .content {
+    grid-column: 1/6;
+  }
+
+  .container .sidebar {
+    grid-column: 1/6;
+  }
+  
+  .container .related-post {
+    grid-column: 1/6;
+  }
+}
