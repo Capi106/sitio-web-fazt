@@ -45,3 +45,34 @@ body {
   margin: 1.6em auto;
   background-color: #fff;
 }
+
+
+/* Container sons */
+.container > .header,
+.container > .content,
+.container > .sidebar,
+.container > .related-post,
+.container > .footer {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.container .header,
+.container .footer {
+  grid-column: 1/6;
+  color: #fff;
+  background-color: #1e272e;
+}
+
+.container .content {
+  grid-column: span 3;
+}
+
+.container .sidebar {
+  grid-column: span 2;
+}
+
+.container .related-post {
+  grid-column: span 1;
+}
