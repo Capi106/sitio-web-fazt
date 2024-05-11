@@ -69,6 +69,23 @@ body {
   grid-column: span 3;
 }
 
+.content > .article {
+  margin-top: 5px;
+  padding: 20px;
+  color: #dfe6e9;
+  background-color: #808e9b;
+}
+
+.content > .article:first-child {
+  margin-top: 0;
+}
+
+.content .article h2,
+.content .article p {
+  padding: 10px;
+}
+
+
 .container .sidebar {
   grid-column: span 2;
 }
