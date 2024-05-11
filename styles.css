@@ -88,6 +88,12 @@ body {
 
 .container .sidebar {
   grid-column: span 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: #485460;
 }
 
 .container .related-post {
