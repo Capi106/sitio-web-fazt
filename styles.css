@@ -33,3 +33,15 @@ body {
   font-size: 2.9em;
   text-transform: uppercase;
 }
+
+
+/* Container */
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.6em;
+  width: 90%;
+  max-width: 1000px;
+  margin: 1.6em auto;
+  background-color: #fff;
+}
